@@ -153,27 +153,31 @@ class _ProfileScreenState extends State<ProfileScreen> {
             ),
           ],
         ),
-        child: ClipOval(
-          child: Image.asset(
-            'assets/images/pic.png', // Local image path
-            fit: BoxFit.cover,
-            width: 120,
-            height: 120,
-            // Fallback widget in case image fails to load
-            errorBuilder: (context, error, stackTrace) {
-              return Container(
-                color: Colors.grey[300],
-                child: Icon(
-                  Icons.person,
-                  size: 60,
-                  color: Colors.grey[600],
-                ),
-              );
-            },
-          ),
-        ),
+        child: clipOval(),
       ),
     );
+  }
+
+  ClipOval clipOval() {
+    return ClipOval(
+        child: Image.asset(
+          'assets/images/pic.png', // Local image path
+          fit: BoxFit.cover,
+          width: 120,
+          height: 120,
+          // Fallback widget in case image fails to load
+          errorBuilder: (context, error, stackTrace) {
+            return Container(
+              color: Colors.grey[300],
+              child: Icon(
+                Icons.person,
+                size: 60,
+                color: Colors.grey[600],
+              ),
+            );
+          },
+        ),
+      );
   }
 
   // User Information with RichText

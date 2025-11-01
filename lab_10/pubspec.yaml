@@ -1,0 +1,25 @@
+name: scrolling_lists_demo
+description: A Flutter application demonstrating scrolling lists and effects
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets, place your assets in an assets directory
+  # assets:
+  #   - assets/images/
