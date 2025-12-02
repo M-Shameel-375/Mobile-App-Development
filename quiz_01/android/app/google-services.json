@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "350201261802",
+    "project_id": "fir-authapp-374ee",
+    "storage_bucket": "fir-authapp-374ee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350201261802:android:9807c445701a85a09ff193",
+        "android_client_info": {
+          "package_name": "com.example.quiz_01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_I2tSAS4LgVb41PQACQlthd9OzNO1VpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
